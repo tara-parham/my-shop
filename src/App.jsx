@@ -1,13 +1,12 @@
 import "./App.css";
-import Home from "./pages/Home";
+import Products from "./pages/Products";
 
 function App() {
   return (
-    <>
-      <section className="p-8">
-        <Home />
-      </section>
-    </>
+    <section>
+      <h1 className="text-3xl font-bold text-center my-4">My Store</h1>
+      <Products />
+    </section>
   );
 }
 
